@@ -23,6 +23,10 @@ Once storage is successfully passed through to TrueNAS via Proxmox, creating a s
 
 Because I only have two available disks, I selected *Mirror* to add redundancy to my storage at the expense of useable space. After naming my storage pool and clicking *Create*, my storage pool is complete!  
 
-## Adding Network Shares 
+## Creating Network Shares 
 
-Adding network share is surprisingly easy through the TrueNAS webUI. 
+Adding network shares is surprisingly easy through the TrueNAS webUI. I have several Windows, MacOS, and Linux machines on my home network so I wanted to create a share that is compatible with each one of those operating systems. SMB (server message block) works great across all of those operating systems, so that is the share I created. 
+
+To create an SMB share navigate to *Sharing* > *Windows Shares (SMB)*. I selected the filepath for the dataset I created earlier, and I clicked on *Advanced Options* where I added the hosts I wanted to have access to the share. 
+
+I was able to connect to my share easily through both Windows and Linux following the steps listed below:
