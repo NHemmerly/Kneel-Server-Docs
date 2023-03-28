@@ -22,6 +22,6 @@ The firmware upgrade process was simple and the in-depth process and download ca
 
 ![A crude drawing of my basic network layout](./images/Network-diagram-1.png "Network Diagram")
 
-My basic network configuration consists of mostly wireless devices, and a few wired devices. The theory behind my network design is 
-
+My basic network configuration consists of mostly wireless devices, and a few wired devices. The theory behind my network design is that VMs that are exposed to the internet via port forwarding (such as a minecraft server) should be separated from non-exposed machines and VMs. Wireless devices should also be in a separate network from wired management devices. The general idea is that segmented networks provide increased security and performance, especially when paired with firewall settings across clients and network devices. 
+ 
 ## Subnetting and VLANs
