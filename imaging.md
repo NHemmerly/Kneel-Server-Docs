@@ -8,7 +8,7 @@ The reason I am writing is because I recently reinstalled *Fedora* Linux in a pa
 
 ISO files are files that are an exact copy of data that exists on different types of digital media. ISO files can be used to make an exact copy of an entire operating system, it should be pretty clear why ISOs are great for backing up important systems. 
 
-There are several ways to create bootable ISO images of an operating system. I'll cover just one great way to make a bootable clone of an existing operating system.
+There are several ways to create bootable ISO images of an operating system. I'll cover just two great way to make a bootable clone of an existing operating system.
 
 ## Clonezilla
 
@@ -20,3 +20,30 @@ There are several ways to create bootable ISO images of an operating system. I'l
 
 After downloading the Clonezilla live iso file and installing Rufus, the process is fairly straightforward. 
 
+!["The Rufus GUI"](./images/Rufus-imaging.png)
+
+  1. Select the USB device you intend to use for Clonezilla **MAKE SURE IT IS THE CORRECT DEVICE**.
+
+  2. Under boot selection, select the Clonezilla file you should've just downloaded. 
+
+  3. Select the right filesystem and partition schemes.
+
+  4. Start. You should now be able to select the USB drive as a bootable device in BIOS!
+
+### Using Clonezilla
+
+Starting Clonezilla is just like installing a new operating system. Sometimes a USB will be recognized as the first bootable device automatically depending on boot settings in UEFI/BIOS. If the USB is not the first bootable device, then you can override the boot in UEFI/BIOS to boot directly to the Clonezilla live USB. 
+
+Directions for using Clonezilla:
+
+  1. Boot via Clonezilla Live
+
+  2. Use 800 X 600 mode
+
+  3. Start Clonezilla 
+
+  4. For creating an image from one disk to another select *device-image*
+
+  5. Select *local_dev* to use a local device.
+
+  6. 
