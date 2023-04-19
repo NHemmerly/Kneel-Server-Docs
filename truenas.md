@@ -29,4 +29,12 @@ Adding network shares is surprisingly easy through the TrueNAS webUI. I have sev
 
 To create an SMB share navigate to *Sharing* > *Windows Shares (SMB)*. I selected the filepath for the dataset I created earlier, and I clicked on *Advanced Options* where I added the hosts I wanted to have access to the share. 
 
+## Accessing Network Drives
+
 I was able to connect to my share easily through both Windows and Linux following the steps listed below:
+
+  - On Windows:
+    - Navigate to the file explorer and right-click on *This PC* to select *map network drive*
+    - A dialogue will appear asking for the 'Folder' of the desired network drive. Type '\\\\*IP Address of TrueNAS*\\*name of shared pool*' and select a drive letter. 
+    - My folder was: \\\\192.168.1.230\\WindowsShare
+    - After clicking finish and signing in, the network drive should be accessible on the configured machine. 
