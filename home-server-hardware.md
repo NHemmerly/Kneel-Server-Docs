@@ -28,12 +28,14 @@ The specs of my desktop are listed below:
 - Operating System:
   - Dual-Boot:
     - Windows 11
-    - Fedora Desktop 36
+    - Fedora Desktop 37
 - CPU: *Intel i5-10400 **6 cores** @ 2.9GHz*
 - RAM: *16GB DDR4 @ 2400MHz*
 - Storage:
   - 1 X 1TB M.2 SSD
     - Western Digital Blue 1TB m.2 SSD
+  - 1 X 2TB M.2 SSD
+    - Samsung EVO plus 2TB m.2 SSD
   - 1 X 2TB HDD @ 7200 RPM
     - Seagate Barracuda 2TB HDD 
 - GPU:
@@ -48,5 +50,11 @@ Cable Modem plus Router:
 
 Powerline Ethernet Adapter:
   - TP-Link AV1000 Adapter
+
+Router:
+  - TP-Link Archer A7
+
+Managed Switch:
+  - TP-Link TP-SG108E
 
 TP-links powerline ethernet adapters provide a great solution for users who live in a home where they are unable to pull cabling for wired network connections. The powerline adapters make use of existing home copper cabling to transmit a network signal from a switch or router in one room to any other room in the house. 
