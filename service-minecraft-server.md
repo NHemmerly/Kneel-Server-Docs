@@ -296,4 +296,5 @@ The basic service for my minecraft server are essentially complete!
 
  - [Brewery](https://dev.bukkit.org/projects/brewery#:~:text=Brewery%20is%20a%20Plugin%20for,%2C%20...%2C%201.8)
  - [SmoothTimber](https://www.spigotmc.org/resources/smoothtimber.39965/)
+ - [MCMMO](https://wiki.mcmmo.org/)
 
