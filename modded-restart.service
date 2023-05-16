@@ -1,0 +1,9 @@
+[Unit]
+Description=Restarts the Minecraft Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl restart modded-minecraft.service
+
+[Install]
+WantedBy=multi-user.target
