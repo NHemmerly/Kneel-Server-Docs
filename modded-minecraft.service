@@ -1,0 +1,16 @@
+[Unit]
+Description=Modded Minecraft Server start
+After=network.target
+[Service]
+user=minecraft
+Nice=1
+SuccessExitStatus=0 1
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+WorkingDirectory=/opt/minecraft/server/y 
+ExecStart=/opt/minecraft/server/y/start.sh
+ExecStop=
+[Install]
+WantedBy=multi-user.target
